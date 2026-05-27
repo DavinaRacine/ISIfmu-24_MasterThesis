@@ -12,7 +12,7 @@ The analysis covers 15 diverse trending repositories and assesses them across fo
 *  **Contributor Diversity Index (CDI)** - Quantifiable proxy for the project's "Bus Factor" and structural resilience.
 
 ## Repository Structure
-*   **/raw-data**: Contains the 15 individual raw Excel files extracted using the custom Python extraction algorithm found in the **/python-script** directory. These files include the structural lifecycles (Pull Requests, Issues, and Contributors) and the aggregated comment data.
+*   **/raw-data**: Contains the 15 individual raw Excel files extracted using the custom Python extraction algorithm found in the **/python-script** directory. These files include the structural lifecycles (pull requests, issues, and authors) and the aggregated comment data.
 *   **/calculations**: Contains the `Calculations_DJackson.xlsx` file, which includes the final results of the statistical analysis as follows.
     *   **Raw Metrics Calculations.** Calculated per repository, serving as the foundation of the experiment.
     *   **Spearman Correlation Matrix.** Establishing the statistical trade-offs between metrics.
