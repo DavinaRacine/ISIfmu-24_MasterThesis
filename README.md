@@ -12,12 +12,12 @@ The analysis covers 15 diverse trending repositories and assesses them across fo
 *  **Contributor Diversity Index (CDI)** - Quantifiable proxy for the project's "Bus Factor" and structural resilience.
 
 ## Repository Structure
-*   **/raw-data**: Contains the 15 individual raw Excel files extracted using the custom Python extraction algorithm found in the **/python-script** folder. These files include the structural lifecycles (Pull Requests, Issues, and Contributors) and the aggregated comment data.
-*   **/calculations**: Contains the `Calculations_DJackson.xlsx`. This file contains the final results of the statistical analysis, including the following.
-    *   **All Raw Excel Files.** Merged into one workbook for easier accessibility.
+*   **/raw-data**: Contains the 15 individual raw Excel files extracted using the custom Python extraction algorithm found in the **/python-script** directory. These files include the structural lifecycles (Pull Requests, Issues, and Contributors) and the aggregated comment data.
+*   **/calculations**: Contains the `Calculations_DJackson.xlsx` file, which includes the final results of the statistical analysis as follows.
     *   **Raw Metrics Calculations.** Calculated per repository, serving as the foundation of the experiment.
     *   **Spearman Correlation Matrix.** Establishing the statistical trade-offs between metrics.
     *   **WASPAS Model.** The full calculation pipeline, including linear normalization, Weighted Sum Model, Weighted Product Model, and final $Q_i$ scores and rankings.
+    *   *Note: Due to file size limitations on the GitHub platform, the raw project data has been moved from the primary workbook file into individual files within the **/raw-data** directory to ensure the repository remains accessible and easy to download.*
 *   **/visualizations**: The complete collection of process mining models (Heuristics Nets and Petri Nets) generated using ProM 6.14.
 *   **/python-script**: The custom Python extraction algorithm used to extract, clean, and normalize event data for the primary dataset (Appendix A of the thesis).
 
