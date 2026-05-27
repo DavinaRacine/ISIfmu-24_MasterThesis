@@ -6,10 +6,10 @@ The research proposes a hybrid methodology for assessing the quality of open-sou
 
 ## Analytical Scope
 The analysis covers 15 diverse trending repositories and assesses them across four key metrics:
-1.  **Review Rigor (RR)** - Proxy for the depth of code scrutiny.
-2.  **Pull Request Merge Ratio (PRMR)** - Measures the efficiency of the contribution acceptance pipeline.
-3.  **Issue Resolution Rate (IRR)** - Measures the project’s capacity to address bugs and user requests.
-4.  **Contributor Diversity Index (CDI)** - Quantifiable proxy for the project's "Bus Factor" and structural resilience.
+*  **Review Rigor (RR)** - Proxy for the depth of code scrutiny.
+*  **Pull Request Merge Ratio (PRMR)** - Measures the efficiency of the contribution acceptance pipeline.
+*  **Issue Resolution Rate (IRR)** - Measures the project’s capacity to address bugs and user requests.
+*  **Contributor Diversity Index (CDI)** - Quantifiable proxy for the project's "Bus Factor" and structural resilience.
 
 ## Repository Structure
 *   **/raw-data**: Contains the 15 individual raw Excel files extracted using the custom Python extraction algorithm found in the **/python-script** folder. These files include the structural lifecycles (Pull Requests, Issues, and Contributors) and the aggregated comment data.
