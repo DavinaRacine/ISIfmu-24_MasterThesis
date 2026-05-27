@@ -22,6 +22,6 @@ The analysis covers 15 diverse trending repositories and assesses them across fo
 *   **/python-script**: The custom Python extraction algorithm used to extract, clean, and normalize event data for the primary dataset (Appendix A of the thesis).
 
 ## Automated Cloud Pipeline Prototype 
-To see the methodology in action, access the [Automated Cloud Pipeline Prototype here] (https://colab.research.google.com/drive/1bgnDV1Q-ieOvsur42mLhQqNd_N7yIpZL?usp=sharing) (Appendix B of the thesis). 
+To see the methodology in action, access the [Automated Cloud Pipeline Prototype here:](https://colab.research.google.com/drive/1bgnDV1Q-ieOvsur42mLhQqNd_N7yIpZL?usp=sharing) (Appendix B of the thesis). 
 
 *This prototype utilizes optimized API extraction and cloud-native visualization (PM4Py) for real-time performance, while implementing a fault-tolerant mechanism to navigate regional LLM API restrictions within the European Union.*
