@@ -17,7 +17,7 @@ The analysis covers 15 diverse trending repositories and assesses them across fo
     *   **Spearman Correlation Matrix.** Establishing the statistical trade-offs between metrics.
     *   **WASPAS Model.** The full calculation pipeline, including linear normalization, Weighted Sum Model, Weighted Product Model, and final $Q_i$ scores and rankings.
     *   *Note: Due to file size limitations on the GitHub platform, the raw project data has been moved from the primary workbook file into individual files within the **/raw-data** directory to ensure the repository remains accessible and easy to download.*
-*   **/llm-validation**: Contains the qualitative results from the LLM validation rounds. This includes the stochastic and deterministic justifications, as well as the concordance comparisons of the semantic classifications against the statistical WASPAS rankings.
+*   **/llm-validation**: Contains the zero-shot prompt and qualitative results from the LLM validation rounds. This includes the stochastic and deterministic justifications, as well as the concordance comparisons of the semantic classifications against the statistical WASPAS rankings.
 *   **/python-script**: The custom Python extraction algorithm used to extract, clean, and normalize event data for the primary dataset (Appendix A of the thesis).
 *   **/raw-data**: Contains the 15 individual raw Excel files extracted using the custom Python extraction algorithm found in the **/python-script** directory. These files include the structural lifecycles (pull requests, issues, and authors) and the aggregated comment data.
 *   **/visualizations**: The complete collection of process mining models (Heuristics Nets and Petri Nets) generated using ProM 6.14.
