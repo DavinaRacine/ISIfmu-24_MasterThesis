@@ -1,6 +1,6 @@
 # Development Project Quality Assessment Using Event-Based Methods
 
-This repository contains the research data and master calculation file for the Master Graduation Thesis **"Development Project Quality Assessment Using Event-Based Methods"** by Davina Racine Jackson.
+This repository contains the research data and calculation file for the Master Graduation Thesis **"Development Project Quality Assessment Using Event-Based Methods"** by Davina Racine Jackson.
 
 The research proposes a hybrid methodology for assessing the quality of open-source software repositories by triangulating visual process discovery through process mining, holistic statistical scoring via the WASPAS method, and deterministic validation using Gemini 2.5 Pro.
 
