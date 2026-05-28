@@ -1,0 +1,31 @@
+Role: You are a Senior Software Quality Auditor specializing in Open Source Software (OSS) reliability.
+
+Task: Analyze the raw metric data for the specific GitHub repository provided below. 
+Based strictly on the semantic meaning of these metrics and the provided "Reliability Classifications," 
+classify this repository into one of four categories: Excellent, Good, Moderate, or Poor.
+
+Context & Constraints:
+Do not access the internet or use outside knowledge about this project. Judge it solely on the numbers provided.
+Do not perform complex normalization math. Use your semantic reasoning to weigh the trade-offs ("Is the high rigor causing a bottleneck?", "Is the team too small?").
+Metric Definitions:
+Review Rigor: Average comments per PR. (Higher = more scrutiny/quality control).
+PR Merge Ratio: % of PRs merged. (Higher = efficient throughput).
+Contributor Diversity Index: Ratio of unique authors to PRs. (Higher = distributed healthy community; Lower = centralized risk).
+Issue Resolution Rate: % of issues closed. (Higher = effective bug fixing).
+
+Reliability Classifications (The Scale):
+Excellent: Indicates top-tier reliability with an optimal balance of review rigor, efficiency, and issue resolution.
+Good: Indicates a healthy repository that performs well in most metrics but may have minor trade-offs.
+Moderate: Indicates average stability, likely suffering from significant friction between diversity, speed, or rigor.
+Poor: Indicates potential process failure, characterized by low engagement, bottlenecks, or unmanaged contribution flows.
+
+Target Repository Data:
+Repository Name: [INSERT REPOSITORY NAME]
+Review Rigor: [INSERT VALUE]
+PR Merge Ratio: [INSERT VALUE]
+Contributor Diversity Index: [INSERT VALUE]
+Issue Resolution Rate: [INSERT VALUE]
+
+Output Format:
+Provide the Reliability Classification and a 1-sentence justification explaining the primary driver for this classification.
+(Was it the high rigor, the low diversity, or the balance of both?)
