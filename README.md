@@ -20,7 +20,7 @@ The analysis covers 15 diverse trending repositories and assesses them across fo
 *   **/llm-validation**: Contains the Zero-shot prompt `Prompt_DJackson.txt` and qualitative results `LLM-Validation_DJackson.xlsx` file from the LLM validation rounds. This includes the stochastic and deterministic justifications, as well as the concordance comparisons of the semantic classifications against the statistical WASPAS rankings.
 *   **/python-script**: Contains the custom Python extraction algorithm `Algorithm_DJackson.py` used to extract, clean, and normalize event data for the primary dataset (Appendix A of the thesis).
 *   **/raw-data**: Contains the 15 individual raw data Excel files extracted using the custom Python extraction algorithm found in the **/python-script** directory. These files include the structural lifecycles (pull requests, issues, and authors) and the aggregated comment data.
-*   **/visualizations**: Contains the complete collection of process mining models (heuristics and petri nets) generated using ProM 6.14.
+*   **/visualizations**: Contains the complete collection of 30 process mining models (heuristics and petri nets) generated using ProM 6.14.
 
 ## Automated Cloud Pipeline Prototype 
 To see the methodology in action, access the [Automated Cloud Pipeline Prototype here](https://colab.research.google.com/drive/1bgnDV1Q-ieOvsur42mLhQqNd_N7yIpZL?usp=sharing) (Appendix B of the thesis). 
